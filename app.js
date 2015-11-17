@@ -1,7 +1,7 @@
 'use strict';
 
 var coffee = angular.module('coffee', ['ngRoute', 'coffeeController', 'ui.bootstrap', 'star']);
-
+//var coffee = angular.module('coffee', ['ngRoute', 'coffeeController', 'ui.bootstrap',]);
 coffee.config(['$routeProvider',
 	function ($routeProvider) {
 		$routeProvider
