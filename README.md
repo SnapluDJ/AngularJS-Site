@@ -1,2 +1,2 @@
 # AngularJS-Site
-Using AngularJS to create a front-end website
+Using AngularJS along wiht UI Bootstrp to create a front-end website
