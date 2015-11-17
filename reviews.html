@@ -15,10 +15,8 @@
 		<tr ng-repeat="review in selectedCoffee.reviews">
 			<td>{{review.reviewer}}</td>
 			<td>{{review.comment}}</td>
-			<td ng-controller="ratingCtrl">
-			<!-- <td> -->
-				<uib-rating ng-model="{{review.rating}}" max="max" readonly="isReadonly" aria-labelledby="default-rating"></uib-rating>
-				<!-- <uib-rating ng-model="{{review.rating}}" max="10" readonly="true" aria-labelledby="default-rating"></uib-rating> -->
+			<td>
+				<uib-rating ng-model="{{review.rating}}" max="10" readonly="true" aria-labelledby="default-rating"></uib-rating>
 			</td>
 		</tr>
 	</table>
